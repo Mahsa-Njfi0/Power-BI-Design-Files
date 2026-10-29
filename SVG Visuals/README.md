@@ -133,7 +133,7 @@ Paste this into your preferred LLM, describe the visual you want at the end, and
 - **Black box / broken icon?** → Check the Data Category. It must be **"Image URL"**.  
 - **SVG renders as black lines?** → You missed a `%23` in a color. Scan for `#`.  
 - **Shapes are cut off?** → You forgot `overflow="visible"` or the `viewBox` padding (`-2 -2`).  
-- **Tooltip still appears after disabling it?** → Adjust the `Image Size` (height/width) in the visual's Format pane (Table / Matrix visual) to force a re‑render (Phantom Tooltip fix).
+- **Tooltip still appears after disabling it?** → Adjust the `Image Size` (height/width) in the visual's Format pane (Table / Matrix visual) to force a rerender (Phantom Tooltip fix).
 
 
 **Happy Visualizing!**  🚀
